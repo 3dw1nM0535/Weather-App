@@ -1,0 +1,23 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "weather data basing on user current location",
+  "main": "index.js",
+  "dependencies": {
+    "angular-animate": "^1.6.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3dw1nM0535/Weather-App.git"
+  },
+  "author": "3dw1nm0535",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/3dw1nM0535/Weather-App/issues"
+  },
+  "homepage": "https://github.com/3dw1nM0535/Weather-App#readme"
+}

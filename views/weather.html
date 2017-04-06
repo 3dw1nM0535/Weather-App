@@ -1,20 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" ng-app="sample">
 <head>
- <meta name="keyword" content="Weather App, Show Weather, Get Weather Data, Display Weather" />
+ <title>Weather</title>
+ <meta name="keyword" content="Weather App, Show Weather, Get Weather Data, Display Weather" charset="utf-8" />
  <meta name="description" content="Show weather in my location, display weather in my location, view today's weather" />
  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
  <link rel="stylesheet" type="text/css" href="../views/bootstrap.css" />
  <link rel="stylesheet" type="text/css" href="../views/weather.css" />
  <!--<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=" />-->
- <title> Weather </title>
 </head>
-<body>
+<body ng-controller="namesController">
+ <div class="container-fluid text-center">
+  <h1>Weather App</h1>
+ </div>
+ <div class="container">
+  <div class="row">
+   <div class="col-sm-6 text-center">
+    
+   </div>
+   <div class="col-sm-6 text-center">
 
-
- <script src="../libraries/jquery-3.1.1.min.js"></script>
- <script src="../libraries/bootstrap.js"></script>
- <script src="../libraries/angular.min.js"></script>
-
+   </div>
+  </div>
+ </div>
+<script type="text/javascript" src="../libraries/angular.min.js"></script>
+<script type="text/javascript" src="../node_modules/angular-animate/angular-animate.js"></script>
+<script type="text/javascript" src="../controllers/weather.js"></script>
+<script type="text/javascript" src="../libraries/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="../libraries/bootstrap.js"></script>
 </body>
 </html>
